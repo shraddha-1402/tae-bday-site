@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(233, 229, 233);
+}
+
+.temp-section{
+  margin: 10px;
+  /* background-color: wheat; */
+  min-height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 360px));
+  /* grid-template-rows: 320px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.temp-section .temp-card{
+  /* border: black 3px solid; */
+  /* border: thistle solid; */
+  position: relative;
+  /* width: 320px; */
+  height: 320px;
+  margin: 20px;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.temp-section .temp-card .box{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: 1s ease;
+}
+
+.temp-section .temp-card:hover .box{
+  transform: rotateY(180deg);
+}
+
+.temp-section .temp-card .box .imgBx{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.temp-section .temp-card .box .imgBx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.temp-section .temp-card .box .contentBx{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+}
+
+.temp-section .temp-card .box .contentBx div{
+  transform-style: preserve-3d;
+  padding: 20px;
+  background: linear-gradient(45deg, rgb(107, 47, 107), rgb(151, 9, 151));
+  transform: translateZ(100px);
+}
+
+.temp-section .temp-card .box .contentBx div p{
+  color:#fff;
+  font-size: 16px;
+}
+
+.temp-section .temp-card .box .contentBx div h5{
+  color: rgb(228, 209, 226);
+  font-size: 16px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+header{
+  display: flex;
+  justify-content: flex-end;
+  height: 100vh;
+  background: rgba(51, 51, 51, 0.4);
+}
+
+header::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg, rgb(59, 51, 59), rgb(80, 66, 80));
+  z-index: -1;
+}
+
+/* header::after{
+  content: "hellllo";
+  position: absolute;
+} */
+
+header .img-container{
+  position: relative;
+  width: 550px;
+  height: 100vh;
+}
+
+header .img-container img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+    /*  background: linear-gradient(90deg, rgb(59, 51, 59), rgb(80, 66, 80));
+ 
+    background: linear-gradient(90deg, rgb(68, 58, 68), rgb(80, 66, 80)); */
+
+

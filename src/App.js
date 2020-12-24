@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import './temp.css';
+import React from 'react';
+import Card from './components/temp';
+import photo2 from './images/IMG_20201221_171344.jpg'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <React.Fragment>
+      <header>
+        {/* <div className="name-quote-container">
+          <div className="name">
+            <div>Kim </div><div>Taehyung</div>
+          </div>
+          <span className="quote">Some Taehyung's quote</span>
+        </div> */}
+        <div className="img-container">
+          <img src={photo2}/>
+        </div>
       </header>
-    </div>
+      <Card/>
+    </React.Fragment>
   );
 }
 
