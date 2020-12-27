@@ -1,4 +1,4 @@
-import photo1 from '../images/5e7457cc062c7bbd644c28ca16b6a472.jpg'
+import photo1 from '../images/card-image.jpg'
 
 const Temp = () => {
   return(
