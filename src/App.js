@@ -1,5 +1,5 @@
 import './temp.css';
-import React, {useEffect, useState} from 'react';
+// import React, {useEffect, useState} from 'react';
 import Card from './components/temp';
 import photo2 from './images/hero-cropped-image.jpg';
 import github from './images/icons/icons8-github-60.png';
