@@ -1,5 +1,3 @@
-// import photo1 from '../images/card-image.jpg'
-
 const Temp = ({songName, lyrics, image}) => {
   return(
     
@@ -20,5 +18,4 @@ const Temp = ({songName, lyrics, image}) => {
       </div>
   )
 }
-
 export default Temp;
