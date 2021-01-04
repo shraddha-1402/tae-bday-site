@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --grey-grad: linear-gradient(90deg, #3b333b, #504250);
 }
 
 body{
-  background-color: rgba(218, 218, 218, 0.2);
+  background-color: black;
 }
 
 header{
@@ -20,7 +21,7 @@ header::before{
   position: absolute;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(90deg, #3b333b, #504250);
+  background: var(--grey-grad) ;
   z-index: -1;
 }
 
@@ -70,14 +71,27 @@ header .img-container img{
   z-index: -1;
 }
 
-.quote-section{
+.glow {
+  font-size: 6vw;
   color: #fff;
   text-align: center;
-  margin: 5vh 0 3vh 0;
-  padding: 2% 1% 2% 1%;
-  background: linear-gradient(45deg, rgb(32, 20, 32), rgb(151, 9, 151));
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  margin: 4vh 0 3vh 0;
+  padding: 2% 2% 2% 2%;
+  background: black;
 }
 
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(172, 0, 172), 0 0 40px  rgb(172, 0, 172), 0 0 50px  rgb(172, 0, 172), 0 0 60px  rgb(172, 0, 172), 0 0 70px  rgb(172, 0, 172);
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px  rgb(255, 75, 255), 0 0 40px  rgb(255, 75, 255), 0 0 50px  rgb(255, 75, 255), 0 0 60px  rgb(255, 75, 255), 0 0 70px  rgb(255, 75, 255), 0 0 80px  rgb(255, 75, 255);
+  }
+}
 
 .temp-section{
   margin: 10px;
@@ -140,7 +154,8 @@ header .img-container img{
   left: 0;
   width: 100%;
   height: 100%;
-  background: #333;
+  /* background: var(--grey-grad); */
+  background: linear-gradient(45deg, rgb(223, 0, 223), rgb(39, 0, 39));
   backface-visibility: hidden;
   display: flex;
   justify-content: center;
@@ -151,31 +166,37 @@ header .img-container img{
 }
 
 .temp-section .temp-card .box .contentBx div{
+  background-color: rgb(27, 27, 27);
   transform-style: preserve-3d;
   padding: 20px;
-  background: linear-gradient(45deg, rgb(32, 20, 32), rgb(151, 9, 151));
   transform: translateZ(100px);
 }
 
 .temp-section .temp-card .box .contentBx div p{
-  color:#fff;
+  color: #fff;
   font-size: 16px;
 }
 
 .temp-section .temp-card .box .contentBx div h5{
-  color: white;
+  color: #fff;
   font-size: 16px;
   margin-top: 10px;
   letter-spacing: 1px;
 }
 
 @media(max-aspect-ratio: 25/19){
+  .glow{
+    font-size: 8vw;
+  }
   header .img-container{
     width: 60vw;
   }
 }
 
 @media(orientation: portrait){
+  .glow{
+    font-size: 12vw;
+  }
   .name-container{
     width: 0vw;
     height: 0vh;
@@ -200,7 +221,6 @@ header .img-container img{
     -webkit-text-stroke-color: rgb(211, 211, 211);
     -webkit-text-fill-color: transparent;
   }
-
 }
 
 @media(max-width: 360px){
@@ -226,26 +246,79 @@ footer{
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  padding-bottom: 3px;
+  padding-bottom: 5px;
   height: 15vh;
-  background: linear-gradient(90deg, #3b333b, #504250);
+  color: #fff;
+  background: var(--grey-grad);
 }
 
 footer div{
   /* background-color: blue; */
   align-items: center;
   text-align: center;
-  margin-top: 1%;
+  margin-top: 2%;
 }
 
 footer div a img{
   width: 25%;
   height: auto;
-  margin: 2% 5% 0 5%;
+  margin: 2% 7% 0 7%;
 }
 
 /*  background: linear-gradient(90deg, rgb(59, 51, 59), rgb(80, 66, 80));
 
 background: linear-gradient(90deg, rgb(68, 58, 68), rgb(80, 66, 80)); */
 
+/* .quote-section{
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  
+  
+}
 
+
+
+@keyframes quote-section {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+} */
+
+
+
+
+
+/* #root {
+  position: relative;
+}
+
+#overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 1); */
+  /* Black see-through */
+  /* color: #f1f1f1;
+  z-index: 2;
+  transition: .5s ease; */
+  /* opacity: 0; */
+  /* color: white;
+  font-size: 20px; */
+  /* padding: 20px; */
+  /* text-align: center;
+  opacity: 1;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  padding: 30%; */
+  /* align-items: center; */
+  /* justify-content: center;
+} */
