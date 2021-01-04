@@ -1,5 +1,5 @@
 // import photo1 from '../images/card-image.jpg'
-import React from "react"
+import React from "react";
 // import Overlay from "./overlay"
 
 const Temp = ({ songName, lyrics, image }) => {

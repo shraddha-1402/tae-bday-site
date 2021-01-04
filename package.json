@@ -20,11 +20,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npm run prettier && git add ."
     }
-  },
-  "lint-staged": {
-      "*": ["prettier --write", "git add"]
   },
   "eslintConfig": {
     "extends": [
