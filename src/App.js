@@ -1,41 +1,16 @@
-import "./temp.css";
+import "./App.css";
 import React from "react";
-import Card from "./components/temp";
+import Card from "./components/Card";
 import photo2 from "./images/hero-cropped-image.jpg";
 import github from "./images/icons/icons8-github-60.png";
 import instagram from "./images/icons/icons8-instagram-50.png";
 import imgsd from "./images/card-image.jpg";
 import items from "./data";
 
-// const playSound = ()=>{
-//   document.getElementById("overlay").style.opacity=0;
-//   // overlay.remove();
-//   new Audio(`${window.location.origin}/bell_ring.mp3`).play();
-// }
-
 function App() {
-  // const [snd] = useState();
-  // const [play, setPlay] = useState(true);
-  //   window.addEventListener(
-  //     'click',
-  //     ()=>{
-  //     console.log(window.location.origin);
-
-  //   })
-  // );
-  // const func = ()=> {
-  //   return(<script>
-  //     var overlay = document.getElementById("overlay");
-  //     overlay.a
-  //     overlay.style.opacity=0;
-  //     overlay.remove();
-  //     snd.play();</script>);
-  // }
-
   const looping = (items) => {
     const cardArr = [];
     for (var item in items) {
-      // console.log(item);
       cardArr.push(
         <Card
           songName={item}
@@ -49,12 +24,6 @@ function App() {
   return (
     <React.Fragment>
       <header>
-        {/* {play && func()} */}
-        {/* <div id="overlay"
-      onClick = {playSound()}
-      >
-        Click to get started
-      </div> */}
         <div className="name-container"></div>
         <div className="img-container">
           <img src={photo2} alt="" />
