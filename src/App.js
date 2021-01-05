@@ -1,4 +1,3 @@
-import "./App.css";
 import React from "react";
 import Card from "./components/Card";
 import photo2 from "./images/hero-cropped-image.jpg";
@@ -6,6 +5,7 @@ import github from "./images/icons/icons8-github-60.png";
 import instagram from "./images/icons/icons8-instagram-50.png";
 import imgsd from "./images/card-image.jpg";
 import items from "./data";
+import "./App.css";
 
 function App() {
   const looping = (items) => {
