@@ -1,0 +1,35 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+$s1: "";
+@for $i from 1 through 400 {
+  $s1: $s1 +
+    random(1000) *
+    0.1vw +
+    " " +
+    random(1000) *
+    0.1vh +
+    " " +
+    0 +
+    " " +
+    random(50) *
+    -0.01rem +
+    #fff;
+  @if $i < 400 {
+    $s1: $s1 + ",";
+  }
+}
+
+.snow {
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+.layer1 {
+  width: 1.5rem;
+  height: 1.5rem;
+  filter: blur(1.5px);
+  box-shadow: #{$s1};
+}
