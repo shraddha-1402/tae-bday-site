@@ -1,0 +1,8 @@
+#Igonre attributes
+.eslintcache
+.gitignore
+.prettierignore
+*.png
+*.jpg
+*.mp3
+public/images

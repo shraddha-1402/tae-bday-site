@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Card from "./components/Card";
 import photo2 from "./images/hero-cropped-image.jpg";
 import github from "./images/icons/icons8-github-60.png";
@@ -10,15 +10,24 @@ import "./App.css";
 function App() {
   const looping = (items) => {
     const cardArr = [];
-    for (var item in items) {
+    console.log(items["songs"]);
+    items["songs"].forEach((item) => {
+      // console.log(typeof(item.image));
+      // console.log(typeof(imgsd));
+      // let imgsd = item.image;
       cardArr.push(
         <Card
-          songName={item}
-          lyrics="Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum"
+          key={item.id}
+          songName={item.song}
+          lyrics={item.lyrics}
           image={imgsd}
         />
       );
-    }
+    });
+    // for (var item in items["songs"]) {
+    //   console.log(item.id);
+    //   //
+    // }
     return cardArr;
   };
   return (
