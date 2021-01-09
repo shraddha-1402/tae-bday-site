@@ -28,4 +28,4 @@ const Card = ({ key, songName, lyrics, image }) => {
   );
 };
 
-export default Temp;
+export default Card;
