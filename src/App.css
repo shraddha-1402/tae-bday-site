@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   --grey-grad: linear-gradient(90deg, #3b333b, #504250);
-  overflow-x: hidden;
 }
 
 body {
