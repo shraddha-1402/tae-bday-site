@@ -6,7 +6,7 @@ const Temp = ({ songName, lyrics, image }) => {
   return (
     <React.Fragment>
       {/* <Overlay /> */}
-      <div className="temp-card">
+      <div key className="temp-card">
         <div className="box">
           <div className="imgBx">
             <img src={image} alt="taehyung's" />

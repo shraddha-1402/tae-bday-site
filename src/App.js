@@ -1,7 +1,14 @@
+// <<<<<<< HEAD
 import "./temp.scss";
 import React from "react";
 import Card from "./components/Card";
 import items from "./data";
+// =======
+// import React from "react";
+// import Card from "./components/Card";
+// import items from "./data";
+// import "./App.css";
+// >>>>>>> master
 
 function App() {
   const looping = (items) => {

@@ -222,7 +222,7 @@ header .img-container img {
     font-size: 15vw;
     line-height: 0.9;
     -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: rgb(211, 211, 211);
+    -webkit-text-stroke-color: rgb(165, 10, 10);
     -webkit-text-fill-color: transparent;
   }
 }
@@ -246,9 +246,9 @@ header .img-container img {
 }
 
 footer {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; */
   flex-direction: column;
   padding-bottom: 5px;
   height: 15vh;
@@ -268,4 +268,3 @@ footer div a img {
   height: auto;
   margin: 2% 7% 0 7%;
 }
-
