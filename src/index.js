@@ -4,12 +4,12 @@ import "./index.css";
 import App from "./App";
 import Overlay from "./components/overlay";
 import reportWebVitals from "./reportWebVitals";
-import SnowFall from "./components/SnowFall";
+// import SnowFall from "./components/SnowFall";
 
 ReactDOM.render(
   <React.StrictMode>
     <Overlay />
-    <SnowFall />
+    {/* <SnowFall /> */}
     <App />
   </React.StrictMode>,
   document.getElementById("root")
