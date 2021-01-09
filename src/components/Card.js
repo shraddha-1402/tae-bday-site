@@ -1,3 +1,4 @@
+// import photo1 from '../images/card-image.jpg'
 import React from "react";
 
 const Card = ({ key, songName, lyrics, image }) => {
