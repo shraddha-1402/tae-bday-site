@@ -1,26 +1,40 @@
 {
-  "Song One" : {
-    "lyrics" : "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-    "image" : "../images/card-image.jpg"
-  },
-  "Song Two" : {
-    "lyrics" : "Lorem ipsum Lorem ipsu Lorem ipsu Lorem ipsu",
-    "image" : "../images/card-image.jpg"
-  },
-  "Song Three" : {
-    "lyrics" : "Lorem ipsum Lorem ipsu Lorem ipsu Lorem ipsu",
-    "image" : "../images/card-image.jpg"
-  },
-  "Song Four" : {
-    "lyrics" : "Lorem ipsum Lorem ipsu Lorem ipsu Lorem ipsu",
-    "image" : "../images/card-image.jpg"
-  },
-  "Song Five" : {
-    "lyrics" : "Lorem ipsum Lorem ipsu Lorem ipsu Lorem ipsu",
-    "image" : "../images/card-image.jpg"
-  },
-  "Song Six" : {
-    "lyrics" : "Lorem ipsum Lorem ipsu Lorem ipsu Lorem ipsu",
-    "image" : "../images/card-image.jpg"
-  }
+  "songs": [
+    {
+      "id": 1,
+      "song": "song 1",
+      "lyrics": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+      "image": "./images/card-image.jpg"
+    },
+    {
+      "id": 2,
+      "song": "song 2",
+      "lyrics": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+      "image": "./images/card-image.jpg"
+    },
+    {
+      "id": 3,
+      "song": "song 3",
+      "lyrics": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+      "image": "./images/card-image.jpg"
+    },
+    {
+      "id": 4,
+      "song": "song 4",
+      "lyrics": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+      "image": "./images/card-image.jpg"
+    },
+    {
+      "id": 5,
+      "song": "song 5",
+      "lyrics": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+      "image": "./images/card-image.jpg"
+    },
+    {
+      "id": 6,
+      "song": "song 6",
+      "lyrics": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+      "image": "./images/card-image.jpg"
+    }
+  ]
 }

@@ -1,13 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+import "./index.scss";
 import App from "./App";
 import Overlay from "./components/overlay";
 import reportWebVitals from "./reportWebVitals";
+import SnowFall from "./components/SnowFall/SnowFall";
 
 ReactDOM.render(
   <React.StrictMode>
     <Overlay />
+    <SnowFall />
     <App />
   </React.StrictMode>,
   document.getElementById("root")
