@@ -2,9 +2,10 @@
   "songs": [
     {
       "id": 1,
-      "song": "song 1",
+      "song": "Singularity",
       "lyrics": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-      "image": "./images/card-image.jpg"
+      "image": "./images/card-image.jpg",
+      "music": "./songs/song1.mp3"
     },
     {
       "id": 2,
