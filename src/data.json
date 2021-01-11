@@ -3,14 +3,14 @@
     {
       "id": 1,
       "song": "Singularity",
-      "lyrics": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+      "lyrics": "Kill me softly\nClose my eyes with your caress\nI can't resist it anyway\nI can't even escape anymore\nYou are too sweet, too sweet\nBecause you are too sweet\nMy blood, sweat, and tears\nMy last dance too\nTake it all away\nMy blood, sweat, and tears\nMy cold breath too\nTake it all away\nI want it more, more, more, more\nI want it more, more, more, more, more",
       "image": "./images/card-image.jpg",
       "music": "./songs/song1.mp3"
     },
     {
       "id": 2,
       "song": "song 2",
-      "lyrics": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+      "lyrics": "Memories crumble like dried flower petals\nAt the tip of my fingers, under my feet\nRight behind your back\nI’m chasing butterflies, so lost in dreams\nI follow your\ntraces\nShow me the way, please stop me\nLet me breathe",
       "image": "./images/card-image.jpg"
     },
     {

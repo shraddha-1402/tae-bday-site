@@ -30,7 +30,6 @@ function Overlay() {
       id="overlay"
       style={count}
       onClick={() => {
-        console.log("hi");
         setCount(cssU);
         const music = new Audio(`./bdaySong.mp3`);
         music.play();
