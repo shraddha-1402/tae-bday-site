@@ -2,4 +2,4 @@
 .gitignore
 .eslintcache
 public/images
-**mp3
+public/*.mp3
