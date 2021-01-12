@@ -2,40 +2,198 @@
   "songs": [
     {
       "id": 1,
-      "song": "Singularity",
-      "lyrics": "Kill me softly\nClose my eyes with your caress\nI can't resist it anyway\nI can't even escape anymore\nYou are too sweet, too sweet\nBecause you are too sweet\nMy blood, sweat, and tears\nMy last dance too\nTake it all away\nMy blood, sweat, and tears\nMy cold breath too\nTake it all away\nI want it more, more, more, more\nI want it more, more, more, more, more",
-      "image": "./images/Singularity.jpeg",
+      "song": "Jump",
+      "lyrics": "No matter who tries to stop me\nI will go on my way\nYou only live once\nLeggo (Leggo!)\nLeggo (Leggo!)\nEven if I live for a day\nI’ll have no regrets\nLet’s jump\nLet’s jump! (Jump! Jump! Jump! Jump!)",
+      "image": "./images/Jump.jpeg",
       "music": "./songs/song1.mp3"
     },
     {
       "id": 2,
-      "song": "song 2",
-      "lyrics": "Memories crumble like dried flower petals\nAt the tip of my fingers, under my feet\nRight behind your back\nI’m chasing butterflies, so lost in dreams\nI follow your\ntraces\nShow me the way, please stop me\nLet me breathe",
-      "image": "./images/Scenery.jpg"
+      "song": "I Need You",
+      "lyrics": "",
+      "image": "./images/I Need You.jpg",
+      "music": ""
     },
     {
       "id": 3,
-      "song": "song 3",
-      "lyrics": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-      "image": "./images/Inner Child.jpg"
+      "song": "Autumn Leaves",
+      "lyrics": "",
+      "image": "./images/Autumn Leaves.jpeg",
+      "music": ""
     },
     {
       "id": 4,
-      "song": "song 4",
-      "lyrics": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-      "image": "./images/DNA.jpg"
+      "song": "Run",
+      "lyrics": "",
+      "image": "./images/Run.jpg",
+      "music": ""
     },
     {
       "id": 5,
-      "song": "song 5",
-      "lyrics": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-      "image": "./images/Dynamite2.jpg"
+      "song": "House Of Cards",
+      "lyrics": "",
+      "image": "./images/House Of Cards.jpeg",
+      "music": ""
     },
     {
       "id": 6,
-      "song": "song 6",
-      "lyrics": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-      "image": "./images/Dionysus.jpg"
+      "song": "Young Forever",
+      "lyrics": "",
+      "image": "./images/Young Forever.jpg",
+      "music": ""
+    },
+    {
+      "id": 7,
+      "song": "It's Definitely You ",
+      "lyrics": "",
+      "image": "./images/Its Definitely You.jpg",
+      "music": ""
+    },
+    {
+      "id": 8,
+      "song": "Blood Sweat And Tears ",
+      "lyrics": "",
+      "image": "./images/BST.jpg",
+      "music": ""
+    },
+    {
+      "id": 9,
+      "song": "Stigma",
+      "lyrics": "",
+      "image": "./images/Stigma.jpg",
+      "music": ""
+    },
+    {
+      "id": 10,
+      "song": "Spring Day",
+      "lyrics": "",
+      "image": "./images/Spring Day.jpeg",
+      "music": ""
+    },
+    {
+      "id": 11,
+      "song": "DNA",
+      "lyrics": "",
+      "image": "./images/DNA.jpg",
+      "music": ""
+    },
+    {
+      "id": 12,
+      "song": "Mic Drop",
+      "lyrics": "",
+      "image": "./images/Mic Drop.jpg",
+      "music": ""
+    },
+    {
+      "id": 13,
+      "song": "4 O'clock",
+      "lyrics": "",
+      "image": "./images/4 o clock.jpg",
+      "music": ""
+    },
+    {
+      "id": 14,
+      "song": "Singularity",
+      "lyrics": "",
+      "image": "./images/Singularity.jpeg",
+      "music": ""
+    },
+    {
+      "id": 15,
+      "song": "Fake Love",
+      "lyrics": "",
+      "image": "./images/Fake Love.jpg",
+      "music": ""
+    },
+    {
+      "id": 16,
+      "song": "Scenery",
+      "lyrics": "",
+      "image": "./images/Scenery.jpg",
+      "music": ""
+    },
+    {
+      "id": 17,
+      "song": "Mikrokosmos",
+      "lyrics": "",
+      "image": "./images/Mikrocosmos.jpg",
+      "music": ""
+    },
+    {
+      "id": 18,
+      "song": "Dionysus",
+      "lyrics": "",
+      "image": "./images/Dionysus1.jpg",
+      "music": ""
+    },
+    {
+      "id": 19,
+      "song": "A Brand New Day",
+      "lyrics": "",
+      "image": "./images/A Brand New Day.jpg",
+      "music": ""
+    },
+    {
+      "id": 20,
+      "song": "Winter Bear",
+      "lyrics": "",
+      "image": "./images/Winter Bear.jpg",
+      "music": ""
+    },
+    {
+      "id": 21,
+      "song": "Black Swan ",
+      "lyrics": "",
+      "image": "./images/Black Swan.jpg",
+      "music": ""
+    },
+    {
+      "id": 22,
+      "song": "On",
+      "lyrics": "",
+      "image": "./images/On.jpg",
+      "music": ""
+    },
+    {
+      "id": 23,
+      "song": "Inner Child",
+      "lyrics": "",
+      "image": "./images/Inner Child.jpg",
+      "music": ""
+    },
+    {
+      "id": 24,
+      "song": "Sweet Night ",
+      "lyrics": "",
+      "image": "./images/Sweet Night.jpg",
+      "music": ""
+    },
+    {
+      "id": 25,
+      "song": "Dynamite",
+      "lyrics": "",
+      "image": "./images/Dynamite1.jpg",
+      "music": ""
+    },
+    {
+      "id": 26,
+      "song": "Life Goes on",
+      "lyrics": "",
+      "image": "./images/Jump.jpeg",
+      "music": ""
+    },
+    {
+      "id": 27,
+      "song": "Blue And Grey ",
+      "lyrics": "Kill me softly\nClose my eyes with your caress\nI can't resist it anyway\nI can't even escape anymore\nYou are too sweet, too sweet\nBecause you are too sweet\nMy blood, sweat, and tears\nMy last dance too\nTake it all away\nMy blood, sweat, and tears\nMy cold breath too\nTake it all away\nI want it more, more, more, more\nI want it more, more, more, more, more",
+      "image": "./images/Blue And Grey.jpg",
+      "music": "./songs/song1.mp3"
+    },
+    {
+      "id": 28,
+      "song": "Snow Flower",
+      "lyrics": "Memories crumble like dried flower petals\nAt the tip of my fingers, under my feet\nRight behind your back\nI’m chasing butterflies, so lost in dreams\nI follow your\ntraces\nShow me the way, please stop me\nLet me breathe",
+      "image": "./images/Snow Flower.jpeg"
     }
   ]
 }
