@@ -5,194 +5,194 @@
       "song": "Jump",
       "lyrics": "No matter who tries to stop me\nI will go on my way\nYou only live once\nLeggo (Leggo!)\nLeggo (Leggo!)\nEven if I live for a day\nI’ll have no regrets\nLet’s jump\nLet’s jump! (Jump! Jump! Jump! Jump!)",
       "image": "./images/Jump.jpeg",
-      "music": "./songs/song1.mp3"
+      "music": "./music/Jump.mp3"
     },
     {
       "id": 2,
       "song": "I Need You",
-      "lyrics": "",
+      "lyrics": "But you’re my everything (You’re my)\nEverything (You’re my)\nEverything (You’re my)\nPlease go away huh\nI’m sorry (I hate you)\nI love you (I hate you)\nForgive me\nI need you girl\nWhy am I in love alone, why am I hurting alone\nI need you girl\nWhy do I keep needing you when I know I’ll get hurt?\nI need you girl, you’re beautiful\nI need you girl, you’re so cold\nI need you girl I need you girl\nI need you girl I need you girl",
       "image": "./images/I Need You.jpg",
-      "music": ""
+      "music": "./music/I Need You"
     },
     {
       "id": 3,
-      "song": "Autumn Leaves",
-      "lyrics": "",
-      "image": "./images/Autumn Leaves.jpeg",
-      "music": ""
+      "song": "Hold Me Tight",
+      "lyrics": "I can only see you\nI can only see you alone\nLook, I’m fair with everyone else but you\nNow I can’t live a day without you, please\nHold me tight, hug me\nCan you trust me?\nCan you trust me? Can you trust me?\nPull me in tight\nHold me tight, hug me\nCan you trust me?\nCan you trust me?\nPlease, please, please pull me in and hug me",
+      "image": "./images/Hold Me Tight.jpeg",
+      "music": "./music/Hold Me Tight"
     },
     {
       "id": 4,
       "song": "Run",
-      "lyrics": "",
+      "lyrics": "Memories crumble like dried flower petals\nAt the tip of my fingers, under my feet\nRight behind your back\nI’m chasing butterflies, so lost in dreams\nI follow your\ntraces\nShow me the way, please stop me\nLet me breathe",
       "image": "./images/Run.jpg",
-      "music": ""
+      "music": "./music/Run"
     },
     {
       "id": 5,
       "song": "House Of Cards",
-      "lyrics": "",
+      "lyrics": "More precarious more dangerous\nWe are so bad so bad yeah\nTo endure to support more\nSo hard as it falls again ah\nA house made of cards, and us, inside\nEven though the end is visible\nEven if it’s going to collapse soon\nA house made of cards, we’re like idiots\nEven if it’s a vain dream, stay like this a little more",
       "image": "./images/House Of Cards.jpeg",
-      "music": ""
+      "music": "./music/House of Cards"
     },
     {
       "id": 6,
       "song": "Young Forever",
-      "lyrics": "",
+      "lyrics": "Forever we are young\nUnder the flower petals raining down\nI run, so lost in this maze\nForever we are young\nEven when I fall and hurt myself\nI endlessly run toward my dream\nForever ever ever ever\n(dreams, hopes, forward, forward)\nForever ever ever ever\nWe are young\nForever ever ever ever\n(dreams, hopes, forward, forward)\nForever ever ever ever\nWe are young\nForever we are young",
       "image": "./images/Young Forever.jpg",
-      "music": ""
+      "music": "./music/Young Forever"
     },
     {
       "id": 7,
       "song": "It's Definitely You ",
-      "lyrics": "",
+      "lyrics": "Don't leave me\nDon't leave me\nTurn the footsteps of your heart back to me\nI really want you, I put my life on the line\nTake me into the scattered light\nTo the end of the world\nNa na na na na na\nIt's gotta be you\nNa na na na na na\nIt's gotta be you\nNa na na na na na\nWhoa, whoa, whoa\nI can't let go",
       "image": "./images/Its Definitely You.jpg",
-      "music": ""
+      "music": "./music/Its Definitely You "
     },
     {
       "id": 8,
       "song": "Blood Sweat And Tears ",
-      "lyrics": "",
+      "lyrics": "My blood, sweat, and tears\nMy last dance too\nTake it all away\nMy blood, sweat, and tears\nMy cold breath too\nTake it all away\nI want it more, more, more, more\nI want it more, more, more, more, more\nKill me softly\nClose my eyes with your caress\nI can't resist it anyway\nI can't even escape anymore\nYou are too sweet, too sweet\nBecause you are too sweet",
       "image": "./images/BST.jpg",
-      "music": ""
+      "music": "./music/"
     },
     {
       "id": 9,
       "song": "Stigma",
-      "lyrics": "",
+      "lyrics": "So cry\nPlease dry my eyes\nThat light, that light, please illuminate my sins\nWhere I can’t turn back\nThe red blood is flowing down\nDeeper, I feel like dying every day\nPlease let me be punished\nPlease forgive me for my sins\nPlease",
       "image": "./images/Stigma.jpg",
-      "music": ""
+      "music": "./music/"
     },
     {
       "id": 10,
       "song": "Spring Day",
-      "lyrics": "",
+      "lyrics": "You know it all\nYou’re my best friend\nThe morning will come again\nNo darkness, no season is eternal\nMaybe it’s cherry blossoms\nAnd this winter will be over\nI miss you (I miss you)\nI miss you (I miss you)\nWait a little bit, just a few more nights\nI’ll be there to see you (I'll go there to meet you)\nI’ll come for you (I'll come for you)",
       "image": "./images/Spring Day.jpeg",
-      "music": ""
+      "music": "./music/"
     },
     {
       "id": 11,
       "song": "DNA",
-      "lyrics": "",
+      "lyrics": "Don’t look back\nBecause we're the two who found our destiny\nDon’t regret it, baby\nBecause we're forever\nForever\nForever\nForever\nForever\nWe are together",
       "image": "./images/DNA.jpg",
-      "music": ""
+      "music": "./music/"
     },
     {
       "id": 12,
       "song": "Mic Drop",
-      "lyrics": "",
+      "lyrics": "Did you see my bag? (where?) Did you see my bag? (where?)\nIt's hella trophies and it's hella thick (hella thick, hella thick)\nWhat you think 'bout that? (well) What you think 'bout that? (well)\nI bet it got my haters hella sick (hella sick)\nCome and follow me, follow me with your signs up\nI'm so firin', firin', boy, your time's up\nKeep on and runnin' and runnin' until I catch up\nHow you dare? How you dare? How you dare?\nAnother trophy, my hands carry 'em\nToo many that I can't even count 'em (turn it up now)\nMic drop, mic drop\nCareful of your feet\nCareful of what you say\nSomebody stop me, I'm boutta pop off\nToo busy, you know my body ain't enough (turn it up now)\nMic drop, mic drop\nCareful of your feet\nCareful of what you say",
       "image": "./images/Mic Drop.jpg",
-      "music": ""
+      "music": "./music/"
     },
     {
       "id": 13,
       "song": "4 O'clock",
-      "lyrics": "",
+      "lyrics": "One day\nI wrote a long, long letter to the moon\nIt would not be brighter than you\nBut I lit a small candle\nAt a dusky park\nA nameless bird that sings\nWhere are you\nOh you\nWhy are you crying\nYou and I are the only ones here\nMe and you\nOh you",
       "image": "./images/4 o clock.jpg",
-      "music": ""
+      "music": "./music/"
     },
     {
       "id": 14,
       "song": "Singularity",
-      "lyrics": "",
+      "lyrics": "Please don't say anything\nReach my hand out to cover the mouth\nBut in the end, spring will come someday\nThe ice will melt and flow away\nTell me if my voice isn't real\nIf I shouldn’t have thrown myself away\nTell me if even this pain isn’t real\nWhat I was supposed to do back then",
       "image": "./images/Singularity.jpeg",
-      "music": ""
+      "music": "./music/"
     },
     {
       "id": 15,
       "song": "Fake Love",
-      "lyrics": "",
+      "lyrics": "For you, I could pretend like I was happy when I was sad\nFor you, I could pretend like I was strong when I was hurt\nI wish love was perfect as love itself\nI wish all my weaknesses could be hidden\nI grew a flower that can’t be bloomed in a dream that can’t come true\nI'm so sick of this fake love, fake love, fake love\nI'm so sorry but it's fake love, fake love, fake love",
       "image": "./images/Fake Love.jpg",
-      "music": ""
+      "music": "./music/"
     },
     {
       "id": 16,
       "song": "Scenery",
-      "lyrics": "",
+      "lyrics": "I still wonder wonder beautiful story\nStill wonder wonder best part\nI still wander wander next story\nI want to make you mine\nI still wonder wonder beautiful story\nStill wonder wonder best part\nI still wander wander next story\nI want to make you mine\nIf you leave footprints\nI'll keep it warm\nI'll stay in black and white",
       "image": "./images/Scenery.jpg",
-      "music": ""
+      "music": "./music/"
     },
     {
       "id": 17,
       "song": "Mikrokosmos",
-      "lyrics": "",
+      "lyrics": "City lights, this city's star\nI remember the night sky I saw when I was young\nWhere people are light\nWhere people are stars\nIn this place full of where\nPeople are lights\nWe shinin'\nYou got me\nI breathe while looking at you\nI got you\nInside those pitch black nights (Shine)\nShine, dream, smile (Yeah, eh-eh-eh)\nOh, let us light up the night\nWe shine in our own ways (Our own ways)\nShine, dream, smile\nOh, let us light up the night\n(Oh, let us light up the night)\nWe shine just the way we are (We are)\nTonight (Tonight)\nNa-na-na-na-na-na\nNa-na-na-na-na-na-na-na",
       "image": "./images/Mikrocosmos.jpg",
-      "music": ""
+      "music": "./music/"
     },
     {
       "id": 18,
       "song": "Dionysus",
-      "lyrics": "",
+      "lyrics": "Drink, drink, drink, drink up my glass ay\nEveryone fallin', fallin', fallin' into this crazy artist\nOne drink (one shot), two drinks (two shots)\nHit the gong and call onghaeya\nShot glasses (sippin’) linked arms (tippin’)\nThyrsus (grippin’) Grape (eatin’)\nVibes (Keep it) D style (rip it)\nHere (Kill it), let’s steal it\nThe illest\nShot glasses (sippin’) linked arms (tippin’)\nThyrsus (grippin’) Grape (eatin’)\nVibes (Keep it) D style (rip it)\nHere (Kill it) let’s steal it\nThe illest",
       "image": "./images/Dionysus1.jpg",
-      "music": ""
+      "music": "./music/"
     },
     {
       "id": 19,
       "song": "A Brand New Day",
-      "lyrics": "",
+      "lyrics": "As if hypnotized\nPulled me and led me through\nAs if in a trance\nI became able to listen to the voice inside of me\nThough untouchable, the future's fragments are clearly seen\nA brand new world, dreams’ sentences embrace me (part of me)\nOn the day, I found myself\n(A brand new day)\nGo up the stairs of light\nThe moment we've dreamt of\n(We know the world)\nShow myself to the world",
       "image": "./images/A Brand New Day.jpg",
-      "music": ""
+      "music": "./music/"
     },
     {
       "id": 20,
       "song": "Winter Bear",
-      "lyrics": "",
+      "lyrics": "Imagine your face, say hello to me\nThen all the bad days, they're nothing to me\nWith you, ooh, ooh, ooh, ooh\nWinter bear\nOoh, ooh, ooh\nSleep like a winter bear\nOoh, ooh, ooh\nSleep like a winter bear",
       "image": "./images/Winter Bear.jpg",
-      "music": ""
+      "music": "./music/"
     },
     {
       "id": 21,
       "song": "Black Swan ",
-      "lyrics": "",
+      "lyrics": "A slow heartbeat in my ears\nBump, bump, bump\nTrying to escape with no avail\nJump, jump, jump\nNo tune affects me anymore\nWeeping a silent cry\nAn ocean where daylight never touched yeah, yeah, yeah\nMy lost feet stuck in the mundane yeah, yeah, yeah\nEvery noise, every sound becomes filled with pain yeah, yeah, yeah\nKillin' me now, killin' me now\nDo you hear me yeah\nI'm losing consciousness nah, nah, nah\nStruggle but it's all filled with mud nah, nah\nEvery moment seems like forever yeah, yeah, yeah\nFilm it now, film it now\nDo you hear me yeah",
       "image": "./images/Black Swan.jpg",
-      "music": ""
+      "music": "./music/"
     },
     {
       "id": 22,
       "song": "On",
-      "lyrics": "",
+      "lyrics": "Hey na-na-na\nGotta go insane to stay sane\nHey na-na-na\nThrow myself whole into both worlds\nHey na-na-na\nCan't hold me down 'cuz you know I'm a fighter\nCarried myself into this beautiful prison\nFind me and I'm gonna live with ya\n(Eh-Oh)\nBring it, bring the pain, on yeah\n(Eh-Oh)\nCome on up, bring the pain, on yeah\nRain be pourin'\nSky keep fallin'\nEveryday oh na-na-na\n(Eh-Oh)\nBring it, bring the pain, on yeah",
       "image": "./images/On.jpg",
-      "music": ""
+      "music": "./music/"
     },
     {
       "id": 23,
       "song": "Inner Child",
-      "lyrics": "",
+      "lyrics": "Tonight, if I reach my hand to yours\nCan you hold that hand?\nI'll become you\nYou just have to look at my galaxies\nBe showered with all those stars\nI'll give you my world\nThe lights illuminating your eyes\nThey're the me of now\nYou’re my boy, my boy\nMy boy, my boy, my boy\nWe gon' change\nWe gon' change\nWe gon' change\nWe gon' change\nWe gon' change\nWe gon' change\nWe gon' change\nWe gon' change",
       "image": "./images/Inner Child.jpg",
-      "music": ""
+      "music": "./music/"
     },
     {
       "id": 24,
       "song": "Sweet Night ",
-      "lyrics": "",
+      "lyrics": "How could I know\nOne day I'd wake up feeling more\nBut I had already reached the shore\nGuess we were ships in the night\nNight, night\nHoo, hoo, hoo, hoo, hoo, hoo\nHoo, hoo, hoo, hoo, hoo, hoo\nWe were ships in the night, night, night",
       "image": "./images/Sweet Night.jpg",
-      "music": ""
+      "music": "./music/"
     },
     {
       "id": 25,
       "song": "Dynamite",
-      "lyrics": "",
+      "lyrics": "Bring a friend, join the crowd, whoever wanna come along\nWord up, talk the talk, just move like we off the wall\nDay or night, the sky's alight, so we dance to the break of dawn (Hey)\nLadies and gentlemen, I got the medicine so you should keep ya eyes on the ball\nHuh, this is gettin' heavy, can you hear the bass boom? I'm ready (Woo-hoo)\nLife is sweet as honey, yeah, this beat cha-ching like money, huh\nDisco overload, I'm into that, I'm good to go\nI'm diamond, you know I glow up\nLet's go      \n'Cause I, I, I'm in the stars tonight\nSo watch me bring the fire and set the night alight (Hey)\nShinin' through the city with a little funk and soul\nSo I'ma light it up like dynamite, woah-oh-oh",
       "image": "./images/Dynamite1.jpg",
-      "music": ""
+      "music": "./music/"
     },
     {
       "id": 26,
       "song": "Life Goes on",
-      "lyrics": "",
+      "lyrics": "There's no end in sight\nIs there a way out?\nMy feet refuse to move, oh\nClose your eyes for a moment\nHold my hand (Hold it)\nTo the future, let's run away (Oh, oh, oh)\nLike an echo in the forest\nThe day will come back around\nAs if nothing happened\nYeah, life goes on\nLike an arrow in the blue sky\nAnother day flying by\nOn my pillow, on my table\nYeah, life goes on\nLike this again\nI remember\nI, I, I remember\nI remember\nI, I, I remember",
       "image": "./images/Jump.jpeg",
-      "music": ""
+      "music": "./music/"
     },
     {
       "id": 27,
       "song": "Blue And Grey ",
-      "lyrics": "Kill me softly\nClose my eyes with your caress\nI can't resist it anyway\nI can't even escape anymore\nYou are too sweet, too sweet\nBecause you are too sweet\nMy blood, sweat, and tears\nMy last dance too\nTake it all away\nMy blood, sweat, and tears\nMy cold breath too\nTake it all away\nI want it more, more, more, more\nI want it more, more, more, more, more",
+      "lyrics": "I just wanna be happier\nTo melt the cold me\nMy hands have reached out countless times\nColorless echo\nOh, this ground feels so heavier\nI am singing by myself\nI just wanna be happier\nAm I being too greedy?\nI felt when I walked on the cold winter streets\nThe sound of my fast heartbeat breathing\nI still feel it\nDon't say it's okay\n'Cause it's not okay\nPlease don't leave me alone, it hurts too much",
       "image": "./images/Blue And Grey.jpg",
-      "music": "./songs/song1.mp3"
+      "music": "./music/./songs/song1.mp3"
     },
     {
       "id": 28,
       "song": "Snow Flower",
-      "lyrics": "Memories crumble like dried flower petals\nAt the tip of my fingers, under my feet\nRight behind your back\nI’m chasing butterflies, so lost in dreams\nI follow your\ntraces\nShow me the way, please stop me\nLet me breathe",
+      "lyrics": "Hey snow\nIt's coming today\nWhat should I prepare?\nOk, I'm ready to welcome you (Ok)\nFallin'\nOn a grey canvas\nYou can cover it up\nI'll give you the world (I'll give it to you)\nIn the cold season\nYou coming is the special event for me\nMy blue and grey\nYour warmth will melt (o-o-oh)\nChristmas without you would just not be Christmas at all\nBright mistletoes up above us, it's just you and me\n(I love you)\nThe whole world is full of white flowers\nMake our time even more special (eh-e)\nIn the dead of time\nMay the flowers fall on your sad smile (e-e-eh)",
       "image": "./images/Snow Flower.jpeg"
     }
   ]
