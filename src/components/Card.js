@@ -1,7 +1,7 @@
 import React from "react";
 
-const Card = ({ songName, lyrics, image }) => {
-  const music = new Audio(`${window.location.origin}/bdaySong.mp3`);
+const Card = ({ songName, lyrics, image, music }) => {
+  music = new Audio(music);
   const asd = () => {
     return lyrics.split("\n").map((l, i) => <p key={i}>{l}</p>);
   };
