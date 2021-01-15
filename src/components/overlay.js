@@ -20,7 +20,7 @@ function Overlay() {
     position: "absolute",
     top: "50%",
     left: "50%",
-    fontSize: "0.5rem",
+    fontSize: "5rem",
     color: "white",
     transform: "translate(-50%,-50%)",
     msTransform: "translate(-50%,-50%)",
@@ -35,7 +35,7 @@ function Overlay() {
         // music.play();
       }}
     >
-      <div style={innerStyle}>Welcome</div>
+      <div style={innerStyle}>Welcome!</div>
     </div>
   );
 }
