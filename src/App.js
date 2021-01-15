@@ -13,6 +13,7 @@ function App() {
           songName={item.song}
           lyrics={item.lyrics}
           image={item.image}
+          music={item.music}
         />
       );
     });
@@ -37,7 +38,7 @@ function App() {
             <img src="./images/icons/icons8-instagram-50.png" alt="instagram" />
           </a>
         </div>
-        <p>&#169;2020 Taehyungie Squad &#10084; </p>
+        <p>&#169;2020 Shraddha Gupta; </p>
       </footer>
     </React.Fragment>
   );
