@@ -31,6 +31,7 @@ function Overlay() {
       style={count}
       onClick={() => {
         setCount(cssU);
+
         // const music = new Audio(`./bdaySong.mp3`);
         // music.play();
       }}
