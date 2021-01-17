@@ -36,7 +36,7 @@ function Overlay() {
         music.play();
       }}
     >
-      <div style={innerStyle}>Welcome to TaeTA</div>
+      <div style={innerStyle}>Welcome</div>
     </div>
   );
 }
