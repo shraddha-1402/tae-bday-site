@@ -10,7 +10,7 @@ function Overlay() {
     right: "0",
     bottom: "0",
     backgroundColor: "rgba(0,0,0,1)",
-    zIndex: "2",
+    zIndex: "3",
     cursor: "pointer",
     display: "block",
   };
@@ -30,9 +30,8 @@ function Overlay() {
       id="overlay"
       style={count}
       onClick={() => {
-        console.log("hi");
         setCount(cssU);
-        const music = new Audio(`${window.location.origin}/bdaySong.mp3`);
+        const music = new Audio(`./bdaySong.mp3`);
         music.play();
       }}
     >

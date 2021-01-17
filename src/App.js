@@ -1,7 +1,7 @@
+import "./temp.scss";
 import React from "react";
 import Card from "./components/Card";
 import items from "./data";
-import "./App.css";
 
 function App() {
   const looping = (items) => {
@@ -13,6 +13,7 @@ function App() {
           songName={item.song}
           lyrics={item.lyrics}
           image={item.image}
+          music={item.music}
         />
       );
     });
@@ -37,7 +38,7 @@ function App() {
             <img src="./images/icons/icons8-instagram-50.png" alt="instagram" />
           </a>
         </div>
-        <p>&#169;2020 Shraddha Gupta</p>
+        <p>&#169;2020 Shraddha Gupta; </p>
       </footer>
     </React.Fragment>
   );
