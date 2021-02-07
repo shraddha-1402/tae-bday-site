@@ -1,7 +1,8 @@
 import React from "react";
-import Load from "audio-loader";
+// import Load from "audio-loader";
 
 const Card = ({ songName, lyrics, image, music }) => {
+  music = new Audio(music);
   const asd = () => {
     return lyrics.split("\n").map((l, i) => <p key={i}>{l}</p>);
   };
@@ -10,38 +11,38 @@ const Card = ({ songName, lyrics, image, music }) => {
       <div
         className="box"
         onMouseEnter={() => {
-          try {
-            Load(music).then(function (buffer) {
-              window.AudioContext =
-                window.AudioContext ||
-                window.webkitAudioContext ||
-                window.mozAudioContext;
-              var context = new AudioContext();
-              var source = context.createBufferSource();
-              context.decodeAudioData(
-                buffer,
-                function (b) {
-                  source.buffer = b;
-                },
-                null
-              );
-              source.connect(context.destination);
-              source.start(0);
-              console.log(buffer);
-              console.log(AudioBuffer.length);
-            });
-          } catch (error) {
-            alert("Web Audio API not supported");
-          }
+          // try {
+          //   Load(music).then(function (buffer) {
+          //     window.AudioContext =
+          //       window.AudioContext ||
+          //       window.webkitAudioContext ||
+          //       window.mozAudioContext;
+          //     var context = new AudioContext();
+          //     var source = context.createBufferSource();
+          //     context.decodeAudioData(
+          //       buffer,
+          //       function (b) {
+          //         source.buffer = b;
+          //       },
+          //       null
+          //     );
+          //     source.connect(context.destination);
+          //     source.start(0);
+          //     console.log(buffer);
+          //     console.log(AudioBuffer.length);
+          //   });
+          // } catch (error) {
+          //   alert("Web Audio API not supported");
+          // }
           // music = new Audio(buffer);
-          // music.play();
+          music.play();
           // play(buffer)
         }}
         onMouseLeave={() => {
-          // music.pause();
-          Load(music).then(function (buffer) {
-            // pause(buffer)
-          });
+          music.pause();
+          // Load(music).then(function (buffer) {
+          //   // pause(buffer)
+          // });
         }}
       >
         <div className="imgBx">
