@@ -20,7 +20,7 @@ function Overlay() {
     position: "absolute",
     top: "50%",
     left: "50%",
-    fontSize: "50px",
+    fontSize: "5rem",
     color: "white",
     transform: "translate(-50%,-50%)",
     msTransform: "translate(-50%,-50%)",
@@ -31,11 +31,12 @@ function Overlay() {
       style={count}
       onClick={() => {
         setCount(cssU);
-        const music = new Audio(`./bdaySong.mp3`);
-        music.play();
+
+        // const music = new Audio(`./bdaySong.mp3`);
+        // music.play();
       }}
     >
-      <div style={innerStyle}>Welcome</div>
+      <div style={innerStyle}>Welcome!</div>
     </div>
   );
 }

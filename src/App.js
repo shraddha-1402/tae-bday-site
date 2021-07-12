@@ -27,7 +27,7 @@ function App() {
           <img src="./images/hero-cropped-image.jpg" alt="" />
         </div>
       </header>
-      <div className="glow">HAPPY BIRTHDAY TAE</div>
+      <div className="glow">WE PURPLE YOU!</div>
       <section className="temp-section">{looping(items)}</section>
       <footer>
         <div>
@@ -38,7 +38,7 @@ function App() {
             <img src="./images/icons/icons8-instagram-50.png" alt="instagram" />
           </a>
         </div>
-        <p>&#169;2020 Shraddha Gupta; </p>
+        <p>&#169;2020 Taehyungie Squad &#10084; </p>
       </footer>
     </React.Fragment>
   );
