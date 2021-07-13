@@ -2,41 +2,33 @@ import { useState } from "react";
 
 function Overlay() {
   const css = {
+    display: "block",
     position: "fixed",
     width: "100%",
     height: "100%",
-    top: "0",
-    left: "0",
-    right: "0",
-    bottom: "0",
     backgroundColor: "rgba(0,0,0,1)",
     zIndex: "3",
     cursor: "pointer",
-    display: "block",
   };
-  const cssU = { ...css, display: "none" };
-  const [count, setCount] = useState(css);
-  const innerStyle = {
+  const cssU = { display: "none" };
+  const [overlayStyle, setOverlayStyle] = useState(css);
+  const headingStyle = {
     position: "absolute",
     top: "50%",
     left: "50%",
-    fontSize: "5rem",
+    fontSize: "50px",
     color: "white",
     transform: "translate(-50%,-50%)",
     msTransform: "translate(-50%,-50%)",
   };
   return (
     <div
-      id="overlay"
-      style={count}
+      style={overlayStyle}
       onClick={() => {
-        setCount(cssU);
-
-        // const music = new Audio(`./bdaySong.mp3`);
-        // music.play();
+        setOverlayStyle(cssU);
       }}
     >
-      <div style={innerStyle}>Welcome!</div>
+      <div style={headingStyle}>Please Click</div>
     </div>
   );
 }

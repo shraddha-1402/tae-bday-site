@@ -6,19 +6,14 @@
 }
 
 body {
-  background-color: rgb(0, 0, 0);
+  background-color: black;
 }
 
 header {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-
-  /* justify-content: flex-end;
+  justify-content: flex-end;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.4);
->>>>>>> master */
+  background: rgba(51, 51, 51, 0.4);
 }
 
 header::before {
@@ -166,19 +161,38 @@ header .img-container img {
   border-radius: 10px;
 }
 
-.temp-section .temp-card .box .contentBx div {
+.temp-section .temp-card .box .contentBx .content {
   background-color: rgb(27, 27, 27);
   transform-style: preserve-3d;
   padding: 20px;
   transform: translateZ(100px);
 }
 
-.temp-section .temp-card .box .contentBx div p {
-  color: #fff;
-  font-size: 16px;
+.lyrics {
+  max-height: 120px;
+  overflow-y: auto;
 }
 
-.temp-section .temp-card .box .contentBx div h5 {
+.lyrics::-webkit-scrollbar {
+  width: 10px;
+}
+
+.lyrics::-webkit-scrollbar-track {
+  width: 10px;
+}
+
+.lyrics::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 10px;
+}
+
+.temp-section .temp-card .box .contentBx .content p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.4rem;
+}
+
+.temp-section .temp-card .box .contentBx .content h5 {
   color: #fff;
   font-size: 16px;
   margin-top: 10px;
@@ -219,7 +233,7 @@ header .img-container img {
     font-size: 15vw;
     line-height: 0.9;
     -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: rgb(211, 211, 211);
+    -webkit-text-stroke-color: rgb(255, 255, 255);
     -webkit-text-fill-color: transparent;
   }
 }
@@ -256,7 +270,7 @@ footer {
 footer div {
   align-items: center;
   text-align: center;
-  margin-top: 2%;
+  margin-top: 4vh;
 }
 
 footer div a img {
