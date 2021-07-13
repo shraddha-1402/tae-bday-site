@@ -1,7 +1,7 @@
-import "./temp.scss";
 import React from "react";
 import Card from "./components/Card";
 import items from "./data";
+import "./App.css";
 
 function App() {
   const looping = (items) => {
@@ -27,7 +27,7 @@ function App() {
           <img src="./images/hero-cropped-image.jpg" alt="" />
         </div>
       </header>
-      <div className="glow">WE PURPLE YOU!</div>
+      <div className="glow">WE PURPLE YOU !</div>
       <section className="temp-section">{looping(items)}</section>
       <footer>
         <div>
@@ -38,7 +38,7 @@ function App() {
             <img src="./images/icons/icons8-instagram-50.png" alt="instagram" />
           </a>
         </div>
-        <p>&#169;2020 Taehyungie Squad &#10084; </p>
+        <p>&#169;2020 Taehyungie Squad </p>
       </footer>
     </React.Fragment>
   );
