@@ -28,7 +28,7 @@ function Overlay() {
         setOverlayStyle(cssU);
       }}
     >
-      <div style={headingStyle}>Please Click</div>
+      <div style={headingStyle}>Welcome</div>
     </div>
   );
 }

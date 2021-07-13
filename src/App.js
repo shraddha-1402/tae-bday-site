@@ -27,7 +27,7 @@ function App() {
           <img src="./images/hero-cropped-image.jpg" alt="" />
         </div>
       </header>
-      <div className="glow">WE PURPLE YOU !</div>
+      <div className="glow">WE PURPLE YOU!</div>
       <section className="temp-section">{looping(items)}</section>
       <footer>
         <div>
